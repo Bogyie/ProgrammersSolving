@@ -43,7 +43,7 @@ def string_split(string: str, length: int) -> str:
             string = string[end_index:]
 
 
-def solution(s):
+def solution(s) -> int:
     compress_strings: List[CompressedString] = []
 
     for length in range(1, len(s) + 1):

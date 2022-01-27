@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 
-class JavaSolution {
+public class JavaSolution {
     ArrayList<String> compressedStrings = new ArrayList<>();
 
     String StringCompress(String s, int length) {
