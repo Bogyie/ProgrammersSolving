@@ -14,7 +14,7 @@ internal class KotlinSolutionTest {
 
     @ParameterizedTest
     @MethodSource("defaultTestCase")
-    fun solution(W: Int, H: Int, result: Int) {
+    fun solution(W: Int, H: Int, result: Long) {
         val javaSolution = KotlinSolution()
         assertEquals(javaSolution.solution(W, H), result)
     }
