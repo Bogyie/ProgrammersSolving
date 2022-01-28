@@ -1,12 +1,11 @@
 import unittest
-from 타겟넘버 import PythonSolution as source
+from 멀쩡한사각형 import PythonSolution as source
 
 
 class MyTestCase(unittest.TestCase):
     def test_default_case(self):
         test_cases = [
-            ({'numbers': [1, 1, 1, 1, 1], 'target':3}, 5),
-            ({'numbers': [4, 1, 2, 1], 'target':4}, 2)
+            ({'W': 8, 'H': 12}, 80)
         ]
 
         for test_case, result in test_cases:
