@@ -13,7 +13,7 @@ class Node:
     
     def __gt__(self, other):
         return self.path > other.path
-
+en
 
 def solution(n, edges):
     nods = dict()
