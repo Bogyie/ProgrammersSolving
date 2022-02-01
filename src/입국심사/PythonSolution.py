@@ -53,4 +53,5 @@ def solution(n:int, times:list):
     return max_time
 
 
-print(solution(6, [7,10]))
+if __name__ == "__main__":
+    print(solution(6, [7,10]))

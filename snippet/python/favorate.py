@@ -89,3 +89,19 @@ class SortedList(Container):
 		raise ValueError
 
 
+# rotate
+from copy import deepcopy
+
+def rotate(original):
+    n = len(original)
+    # 0 0 0     0 0 1
+    # 1 0 0 ->  0 0 1
+    # 0 1 1     0 1 0
+    original = deepcopy(original)
+    result = [[0 for _ in range(n)] for _ in range(n)]
+    
+    for i in range(n):  # original row
+        for j in range(n):  # original col
+            result[-1-j][i] = original[i][j]
+            
+    return result
