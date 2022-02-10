@@ -2,6 +2,7 @@ package 완주하지못한선수;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.ArrayList;
 
 public class JavaSolution {
     protected final HashMap<String, Integer> players = new HashMap<>();
